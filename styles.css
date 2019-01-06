@@ -1,0 +1,211 @@
+footer{
+    background:linear-gradient(90deg, rgb(28, 54, 67), rgb(39, 59, 71) 25%, rgb(30, 83, 114));
+    padding: 10px 0;
+}
+
+footer a{
+    color:lightblue;
+    text-decoration: none;
+    font-family: 'Bree Serif';
+    font-size:1.2em;
+}
+footer a:hover, header a:hover{
+    text-decoration: none;
+    animation-name:shadow;
+    animation-duration: 1s;
+    color:white;
+    animation-fill-mode: forwards;
+}
+
+
+
+.dropdown-item:hover{
+   color:darkslategray!important;
+   transition: 1s;
+}
+
+
+header{
+    background-color: #254152 !important;
+}
+header img{
+    width: 180px;
+}
+header h1{
+    font-family: 'Indie Flower', cursive;
+    color:white;
+    padding-top: 10px;
+    font-size:2.5rem;
+}
+header h1 small{
+    font-size:3em;
+}
+
+
+.navbar-brand{
+    position:absolute;
+    right: 60%;
+}
+.dropdown-item{
+    font-size: 10px;
+}
+.nav-item{
+    padding: 0 1em;
+    color:white;
+}
+.nav-item a{
+    color: lightblue;
+    font-family: 'Bree Serif';
+    font-size: 1.2em;
+}
+#navbarDropdown{
+    color:#97c93e;
+}
+.dropdown-item{
+    color:#b6f34d!important;
+    font-size: 12px;
+}
+.dropdown-menu.show{
+    background-color: #254152;
+    transition: 1s;
+}
+body{
+    font-family: 'Aleo', cursive;
+}
+.navbar-toggler-icon{
+    font-family: 'icomoon';
+    background-color: rgb(34, 39, 39);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    color: lightblue;
+    text-align: center;
+    line-height: 35px;
+}
+.navbar-toggler-icon:before{
+    content: "\e9bd";
+    
+}
+#basic-addon1{
+    font-family: 'icomoon';
+    width: 40px;
+    height: 38px;
+
+}
+#basic-addon1:before{
+    content: "\e945";
+}
+.carousel-inner img{
+    max-height: 70vh;
+    object-fit: cover;
+}
+
+#carouselExampleIndicators{
+    position: relative;
+
+}
+#carouselExampleIndicators:hover .overlay{
+    display:initial;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left: 0;
+    right: 0;
+    transition: 1s;
+    background-color: rgba(0,0,0,.5);
+    color: white;
+}
+
+.overlay{
+   display: none;
+}
+
+#carouselExampleIndicators .container,
+#carouselExampleIndicators .row{
+    height: 100%;
+}
+.btn-platzi{
+    background-color:#97C93E;
+    color:white;
+}
+.btn-platzi:hover{
+    opacity: .8;
+}
+#imgleonidas{
+    height: 100%;
+    object-fit: cover;
+}
+.card{
+    width: 100%;
+    height: 100%;
+}
+.text-muted{
+    color:white!important;
+}
+
+.conoce{
+    font-size:16px;   
+    padding-bottom: 10px; 
+}
+
+.oradores{
+    font-size: 32px;
+}
+
+.badge{
+    font-family: 'Lato';
+}
+.honolulu img{
+    max-width: 100%;
+    height: 100%;
+}
+.navbar {
+    background-color:rgb(37, 65, 82) !important;
+}
+.section-honolulu{
+    background-color: #343a40;
+    color:white;
+    font-family: 'Lato';
+}
+.item1{
+    font-family: 'ZCOOL KuaiLe';
+    font-size: 4em;
+    margin-top: 10px;
+}
+.font{
+    font-size: 1.5em;
+    background-color: #254152;
+    border-radius: 4px;
+    padding:15px;
+}
+.cards{
+    margin-bottom: 30px;
+}
+#palmera{
+    object-fit: contain;
+    position:absolute;
+    left: 213.5px;
+    height: 90px;
+}
+header h1 small{
+    color:#97C93E;
+    font-size: 3rem;
+}
+.remember{
+    color: #254152!important;
+}
+#fotico{
+   opacity:1;
+}
+
+
+
+/* keyframes */
+@keyframes shadow{
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+}
+}
