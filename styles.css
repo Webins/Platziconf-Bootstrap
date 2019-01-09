@@ -6,7 +6,7 @@ footer{
 footer a{
     color:lightblue;
     text-decoration: none;
-    font-family: 'Bree Serif';
+    font-family: 'Bree Serif', system-ui;
     font-size:1.2em;
 }
 footer a:hover, header a:hover{
@@ -32,7 +32,7 @@ header img{
     width: 180px;
 }
 header h1{
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Indie Flower', system-ui;
     color:white;
     padding-top: 10px;
     font-size:2.5rem;
@@ -55,7 +55,7 @@ header h1 small{
 }
 .nav-item a{
     color: lightblue;
-    font-family: 'Bree Serif';
+    font-family: 'Bree Serif', system-ui;
     font-size: 1.2em;
 }
 #navbarDropdown{
@@ -70,12 +70,10 @@ header h1 small{
     transition: 1s;
 }
 body{
-    font-family: 'Aleo', cursive;
+    font-family: 'Aleo', system-ui;
 }
 .navbar-toggler-icon{
     font-family: 'icomoon';
-    background-color: rgb(34, 39, 39);
-    border-radius: 50%;
     width: 40px;
     height: 40px;
     color: lightblue;
@@ -153,7 +151,7 @@ body{
 }
 
 .badge{
-    font-family: 'Lato';
+    font-family: 'Lato', system-ui;
 }
 .honolulu img{
     max-width: 100%;
@@ -165,10 +163,10 @@ body{
 .section-honolulu{
     background-color: #343a40;
     color:white;
-    font-family: 'Lato';
+    font-family: 'Lato', system-ui;
 }
 .item1{
-    font-family: 'ZCOOL KuaiLe';
+    font-family: 'ZCOOL KuaiLe', system-ui;
     font-size: 4em;
     margin-top: 10px;
 }

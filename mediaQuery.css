@@ -5,6 +5,7 @@
         font-size: 1em;
     } 
  }
+ 
 
  @media(max-width:1490px){
      #fotico{
@@ -148,6 +149,9 @@
         }
         .overlay{
             padding-top:90px;
+        }
+        .navbar-toggler{
+            border:0px solid transparent;
         }
     }
 @media(max-width:878px){
